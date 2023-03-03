@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+ 
+}
+.up {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+ 
+}
+.up.show{
+  opacity: 1;
+}
+.up i {
+  color: yellow;
+  font-size: 30px;
+}
+section{
+  font-size: 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+  .one{
+  background-color: #333;
+}
+.two{
+  background-color: #a11919;
+} .three{
+  background-color: #150404;  
+} .four{
+  background-color: #777;
+}
+ 
